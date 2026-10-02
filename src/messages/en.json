@@ -1,0 +1,498 @@
+{
+  "servicesPage": {
+    "metadata": {
+      "title": "Services — Novatekia",
+      "description": "Empowering human and collective development within organizations."
+    },
+    "title": "Novatekia Services",
+    "subtitle": "Empowering human and collective development within organizations."
+  },
+  "about": {
+    "section1": {
+      "subtitle": "Identity & Purpose",
+      "title": "About Us",
+      "highlight": "we are a bridge between business strategy and the cultural heritage that precedes us.",
+      "description": "At Novatekia, we understand that success is not measured solely by financial results, but by the ability of organizations to grow in balance, empower their teams, and leave a positive footprint in their environment."
+    },
+    "gallery": {
+      "image1Alt": "Elegant corporate architecture",
+      "image2Alt": "Business strategy and leadership"
+    },
+    "grid": {
+      "image1Alt": "Teamwork and conscious collaboration",
+      "image2Alt": "Executive leadership and strategy spaces"
+    },
+    "section3": {
+      "subtitle": "Trajectory and Mentorship",
+      "title": "Moonex’s Partners",
+      "paragraph1": "With over 20 years of experience in business and human resources, we have designed courses that blend the practical with the transcendent, the technical with the human, and the strategic with the cultural.",
+      "paragraph2": "At Novatekia, we guide entrepreneurs, leaders, middle management, and entire teams on their journey toward solid, purpose-driven professional growth."
+    },
+    "quote": {
+      "bgAlt": "Ancestral and corporate philosophy background",
+      "text": "Our philosophy is inspired by ancestral values of community, shared learning, and conscious leadership. We believe that knowledge has the power to transform both individuals and organizations, which is why we develop programs that foster balance between the human and corporate dimensions.",
+      "author": "— Novatekia Philosophy"
+    }
+  },
+  "courseCard": {
+    "priceSuffix": "person + VAT",
+    "idealFor": "Ideal for",
+    "includes": "Includes",
+    "modality": "Modality",
+    "duration": "Duration",
+    "attendees": "Attendees",
+    "removeAttendee": "Remove attendee",
+    "addAttendee": "Add attendee",
+    "buyNow": "Buy now"
+  },
+  "servicesSection": {
+    "badge": "Our Programs",
+    "title": "Novatekia Services",
+    "description": "Driving human and collective development within organizations."
+  },
+  "features": {
+    "subtitle": "Key Features",
+    "title": "Online Training with a Holistic Vision",
+    "description": "At <company>Novatekia</company> we design courses that combine the practicality of the business world with the richness of a corporate cultural and ancestral vision.",
+    "items": {
+      "onlineMode": {
+        "title": "100% Online Learning",
+        "text": "Learn from anywhere with access to digital materials, interactive forums, and dynamic sessions."
+      },
+      "flexibleDuration": {
+        "title": "Flexible Duration",
+        "text": "From 4 to 20 hours, tailored to your schedule and needs."
+      },
+      "practicalContent": {
+        "title": "Practical Content",
+        "text": "Case studies, applied exercises, and real-world examples for useful and direct learning."
+      },
+      "downloadableMaterials": {
+        "title": "Access to Downloadable Resources",
+        "text": "Guides, templates, and tools you can apply directly to your daily work."
+      },
+      "businessApproach": {
+        "title": "Business & Human Approach",
+        "text": "In addition to technical skills, we build leadership, communication, and team management capabilities."
+      },
+      "cultureAndValues": {
+        "title": "Culture & Values",
+        "text": "We integrate ancestral wisdom principles to strengthen community vision, conscious decision-making, and purposeful leadership."
+      }
+    }
+  },
+  "extraServices": {
+    "title": "Additional Services",
+    "subtitle": "By duration for online courses",
+    "vat": "+ 16% VAT",
+    "buyButton": "Buy",
+    "buyNowButton": "Buy Now",
+    "table": {
+      "service": "Additional Service",
+      "modality": "Modality",
+      "duration": "Duration / Time",
+      "cost": "Approximate Cost (MXN)",
+      "notes": "Notes",
+      "buy": "Buy"
+    },
+    "mobile": {
+      "duration": "Duration",
+      "cost": "Cost"
+    }
+  },
+  "customPlan": {
+    "title": "Tailor-made",
+    "subtitle": "An exclusive plan for you",
+    "requestPlan": "Request a plan",
+    "alreadyHavePlan": "I already have a plan"
+  },
+  "quoteSection": {
+    "quote": "Training leaders is not just about teaching skills, but inspiring a legacy.",
+    "cta": "Start by <link>saying hello!</link>"
+  },
+  "header": {
+    "logoAlt": "Novatekia",
+    "cart": "Cart",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "contact": "Contact"
+    }
+  },
+  "benefitsSection": {
+    "subtitle": "Program Advantages",
+    "title": "Benefits",
+    "items": {
+      "one": {
+        "index": "One",
+        "title": "Acquire key knowledge",
+        "text": "in strategic areas such as business, marketing, finance, innovation, and human resources."
+      },
+      "two": {
+        "index": "Two",
+        "title": "Develop essential soft skills",
+        "text": "leadership, communication, teamwork, and change management."
+      },
+      "three": {
+        "index": "Three",
+        "title": "Boost your professional growth",
+        "text": "and contribute immediate value to your company or venture."
+      },
+      "four": {
+        "index": "Four",
+        "title": "Learn with flexibility",
+        "text": "and personalized support through tutoring, mentoring, and group consulting."
+      },
+      "five": {
+        "index": "Five",
+        "title": "Connect with education",
+        "text": "that focuses not only on results, but on the balance between personal, professional, and collective well-being."
+      }
+    }
+  },
+  "contactSection": {
+    "hero": {
+      "badge": "Personalized service",
+      "titleLine1": "Connect with the knowledge",
+      "titleLine2": "that transforms."
+    },
+    "info": {
+      "addressLabel": "Address",
+      "emailLabel": "Email Address",
+      "phoneLabel": "Phone Number"
+    },
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "Name of your organization"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "example@company.com"
+      },
+      "message": {
+        "label": "Tell us about your project goals",
+        "placeholder": "Briefly describe your requirements or expectations..."
+      },
+      "timeline": {
+        "label": "Do you have a timeline in mind?",
+        "placeholder": "E.g., 1 month, Q3 2026, Urgent"
+      },
+      "budget": {
+        "label": "What is your budget?",
+        "placeholder": "0.00 USD / MXN"
+      },
+      "submit": {
+        "default": "Send",
+        "loading": "Sending..."
+      }
+    },
+    "feedback": {
+      "success": "Message sent successfully. We will get in touch with you shortly.",
+      "error": "An error occurred while sending your information."
+    }
+  },
+  "hero": {
+    "title": "NOVATEKIA",
+    "subtitle": "Training programs in business and human resources",
+    "description": "Our purpose is to guide individuals and companies toward sustainable, conscious, and purposeful growth with advanced management methodologies.",
+    "ctaLearnMore": "Learn more",
+    "ctaServices": "View Services",
+    "imageAlt": "Novatekia Training"
+  },
+  "cartPage": {
+    "emptyTitle": "Your cart is currently empty",
+    "emptyDescription": "It looks like you haven't added any design or consulting services to your cart yet. Get inspired and transform your spaces today!",
+    "exploreServices": "Explore Services",
+    "title": "Your Shopping Cart",
+    "itemsSelected": "You selected {count} {itemLabel}",
+    "service": "service",
+    "services": "services",
+    "badgeInteriorism": "Novatekia",
+    "defaultServiceTitle": "Tailored Service",
+    "variantLabel": "Plan / Option",
+    "assignedTo": "Assigned to",
+    "decreaseQuantity": "Decrease quantity",
+    "increaseQuantity": "Increase quantity",
+    "subtotal": "Subtotal",
+    "removeService": "Remove service",
+    "summaryTitle": "Order Summary",
+    "taxesFees": "Taxes & Fees",
+    "calculatedAtCheckout": "Calculated at payment step",
+    "estimatedTotal": "Estimated Amount",
+    "proceedToCheckout": "Proceed to Checkout",
+    "securityNotice": "Secure transaction process. You can apply your discount coupon in the next step."
+  },
+  "checkoutPage": {
+    "iva": "VAT (16%)",
+    "success": {
+      "title": "Payment Successful!",
+      "description": "Your order has been processed successfully and we have sent a receipt to your email.",
+      "orderIdLabel": "Your Order ID:",
+      "continueShopping": "Return to store"
+    },
+    "emptyTitle": "No items to process",
+    "emptyDescription": "Return to the cart and add services prior to making your payment.",
+    "returnToCart": "Return to Cart",
+    "secureBadge": "256-Bit Secure Processing",
+    "optional": "Optional",
+    "defaultServiceTitle": "Service",
+    "summaryTitle": "Order Summary",
+    "qtyLabel": "Qty.",
+    "couponLabel": "Do you have a promo code?",
+    "couponPlaceholder": "Sample: PRO10",
+    "applyCoupon": "Validate",
+    "couponAppliedBadge": "Coupon {code} applied successfully",
+    "removeCoupon": "Delete",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "totalToPay": "Total due",
+    "processingPayment": "Processing your payment...",
+    "payButton": "Pay {amount} MXN",
+    "termsNotice": "By clicking, you confirm agreement with our terms and policies.",
+    "notesLabel": "Project instructions",
+    "notesPlaceholder": "Relevant notes for your architect or designer...",
+    "contactSection": {
+      "title": "Contact Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone",
+      "company": "Company",
+      "companyPlaceholder": "Name of your studio or company"
+    },
+    "addressSection": {
+      "title": "Address",
+      "street": "Street & Number",
+      "suite": "Neighborhood, Unit or Apt.",
+      "city": "City",
+      "state": "State / Province",
+      "zip": "Postal Code",
+      "country": "Country",
+      "countries": {
+        "MX": "Mexico (MX)",
+        "US": "United States (US)",
+        "ES": "Spain (ES)"
+      }
+    },
+    "paymentSection": {
+      "title": "Payment Information",
+      "cardName": "Cardholder Name",
+      "cardNamePlaceholder": "Name as shown on card",
+      "cardNumber": "Card Number",
+      "cardMonth": "Exp. Month (MM)",
+      "cardYear": "Exp. Year (YY)",
+      "cvv": "CVV"
+    },
+    "toasts": {
+      "enterCoupon": "Enter a promotional code",
+      "couponApplied": "Coupon \"{code}\" entered successfully",
+      "invalidCoupon": "The code is invalid or expired",
+      "emptyCart": "Your cart contains no items",
+      "paymentDeclined": "Payment was not authorized.",
+      "paymentSuccess": "Payment confirmed. Order #{orderId}",
+      "paymentError": "An error occurred while processing the order"
+    }
+  },
+  "ctaSection": {
+    "badge": "Digital transformation",
+    "title": "Transform into a digital business",
+    "description": "We are dedicated to understanding and satisfying each client's tech requirements through tailored services and outstanding outcomes.",
+    "button": "Our Services",
+    "imageAlt": "Professional using a laptop"
+  },
+  "footer": {
+    "logoAlt": "Novatekia",
+    "cardsAlt": "Accepted payment methods",
+    "weAccept": "We accept",
+    "copyright": "© 2026 Novatekia. All rights reserved.",
+    "sections": {
+      "access": "Navigation",
+      "contact": "Contact"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "legal": {
+      "privacy": "Privacy policy",
+      "refund": "Refund policy",
+      "terms": "Terms and conditions"
+    }
+  },
+  "contactPage": {
+    "moreinfoabout": "Information Request: I would like more details regarding your software development process, methodology, and previous project results.",
+    "banner": {
+      "title": "Get in Touch",
+      "breadcrumb": "Get in Touch"
+    },
+    "info": {
+      "badge": "Let's Connect",
+      "title": "Contact Us!",
+      "description": "Feel free to reach out to us for further details and discover how we can assist you in reaching your milestones. We look forward to your message!"
+    },
+    "form": {
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "message": "Type your message",
+      "submit": "Submit",
+      "sending": "Submitting..."
+    },
+    "messages": {
+      "success": "Thank you for reaching out! We will get back to you shortly.",
+      "error": "An issue occurred while submitting the form."
+    }
+  },
+  "aboutPage": {
+    "banner": {
+      "title": "About Us",
+      "breadcrumb": "About Us"
+    },
+    "companyValues": [
+      {
+        "icon": "Lightbulb",
+        "title": "Innovation",
+        "description": "We continuously explore new ways to advance and surpass expectations."
+      },
+      {
+        "icon": "Award",
+        "title": "Quality",
+        "description": "We are dedicated to delivering solutions that adhere to the highest standards."
+      },
+      {
+        "icon": "Users",
+        "title": "Integrity",
+        "description": "We conduct ourselves with complete honesty and openness in every interaction."
+      },
+      {
+        "icon": "Heart",
+        "title": "Commitment",
+        "description": "Total dedication to fulfilling customer satisfaction."
+      }
+    ],
+    "about": {
+      "imageAlt": "The Novatekia Team",
+      "badge": "Who We Are",
+      "title": "We Are Novatekia",
+      "description": "We possess the expertise to comprehend and resolve complex technology challenges. We concentrate on providing tailored solutions that bring genuine value to your business. Our track record and commitment empower us to deliver top-quality, high-performing products.",
+      "features": {
+        "custom": "Tailored solutions",
+        "performance": "High performance"
+      }
+    },
+    "values": {
+      "badge": "Our Principles",
+      "title": "OUR VALUES"
+    }
+  },
+  "customPackagePage": {
+    "hero": {
+      "badge": "Tailored product",
+      "title": "Product Overview"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services",
+      "packages": "Packages",
+      "current": "Tailored Package"
+    },
+    "product": {
+      "name": "Tailored Package",
+      "imageAlt": "Customized package"
+    },
+    "description": {
+      "contactAdvisor": "Speak with an advisor.",
+      "instructions": "To get a quotation for a custom package, speak with an advisor. Provide your package details below to proceed with the corresponding payment."
+    },
+    "form": {
+      "badge": "Custom Plan",
+      "folioLabel": "Package Folio",
+      "folioPlaceholder": "e.g. AB-2026-001",
+      "amountLabel": "Amount Due",
+      "addToCart": "Add to Cart"
+    },
+    "total": {
+      "label": "Total Amount"
+    }
+  },
+  "services": {
+    "banner": {
+      "title": "Our services",
+      "breadcrumb": "Our services"
+    },
+    "service": {
+      "badge": "Service",
+      "readMore": "Learn More"
+    },
+    "cta": {
+      "badge": "Empower your business",
+      "title": "Transform into a digital business",
+      "description": "We strive to understand and meet each client's tech requirements through tailored services and outstanding outcomes.",
+      "button": "Explore Packages",
+      "imageAlt": "IT Professional"
+    }
+  },
+  "Emails": {
+    "contactEmail": {
+      "internalHeroPretitle": "Incoming Lead",
+      "internalHeroTitle": "New message received",
+      "internalHeroSubtitle": "A submission was submitted through the website contact form. Review the details and follow up accordingly.",
+      "labelName": "Name",
+      "labelEmail": "Email",
+      "clientMessageTitle": "Customer message",
+      "internalFollowUpNotice": "Reply directly to this email or send a message to {email} to manage the lead.",
+      "userHeroPretitle": "Submission received",
+      "userHeroTitle": "Thank you for reaching out",
+      "userHeroSubtitle": "Your inquiry was logged successfully. Our team will review it and reply as soon as possible.",
+      "userGreeting": "Hello, {name}.",
+      "userBodyText": "We have received your message. Shortly, one of our specialists will get in touch with you using the email address you submitted.",
+      "labelRegisteredEmail": "Registered email",
+      "labelSite": "Website",
+      "buttonBackToSite": "Return to website",
+      "internalSubject": "New lead: {name}",
+      "userSubject": "We have received your inquiry - {brandName}",
+      "footerTagline": "{brandName} · Custom software and app development.",
+      "footerRights": "© {year} · {brandName}. All rights reserved."
+    },
+    "checkoutEmail": {
+      "customerError": "Incomplete confirmation details.",
+      "customerSubject": "Purchase Receipt - Order #{orderId}",
+      "businessSubject": "New Order Placed - Order #{orderId}",
+      "customerHeroPretitle": "Proof of Purchase",
+      "customerHeroTitle": "Thank you for your payment!",
+      "customerHeroSubtitle": "Hello {name}. We have successfully processed your order and are currently preparing everything for you.",
+      "labelOrderNumber": "Order number",
+      "labelDate": "Date",
+      "labelShippingAddress": "Delivery address",
+      "buttonBackToStore": "Return to store",
+      "businessHeroPretitle": "New Sale Recorded",
+      "businessHeroTitle": "Payment successfully logged",
+      "businessHeroSubtitle": "A new order has been completed on the portal. Check the billing and delivery information below.",
+      "labelCustomer": "Customer",
+      "labelEmail": "Email",
+      "labelPhone": "Phone",
+      "labelOrder": "Order",
+      "labelCustomerAddress": "Customer Address",
+      "labelAdditionalNotes": "Extra notes",
+      "tableConcept": "Item Description",
+      "tableQuantity": "Qty.",
+      "tableTotal": "Total",
+      "tableTotalPaid": "Total amount paid: {amount} MXN",
+      "currencyFormat": "{price} MXN",
+      "footerSupport": "If you have any questions regarding this charge, contact us at",
+      "footerRights": "All rights reserved.",
+      "successMessage": "Emails delivered successfully.",
+      "errorMessage": "The payment went through successfully, but the confirmation email failed to send."
+    }
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "servicesPage": {
+    "metadata": {
+      "title": "Servicios — Novatekia",
+      "description": "Impulsando el desarrollo humano y colectivo dentro de las organizaciones."
+    },
+    "title": "Servicios Novatekia",
+    "subtitle": "Impulsando el desarrollo humano y colectivo dentro de las organizaciones."
+  },
+  "about": {
+    "section1": {
+      "subtitle": "Identidad & Propósito",
+      "title": "Nosotros",
+      "highlight": "somos un puente entre la estrategia empresarial y la riqueza cultural que nos antecede.",
+      "description": "En Novatekia entendemos que el éxito no se mide solo en resultados financieros, sino en la capacidad de las organizaciones para crecer en equilibrio, fortalecer a sus equipos y dejar huella positiva en su entorno."
+    },
+    "gallery": {
+      "image1Alt": "Arquitectura corporativa elegante",
+      "image2Alt": "Estrategia empresarial y liderazgo"
+    },
+    "grid": {
+      "image1Alt": "Trabajo en equipo y colaboración consciente",
+      "image2Alt": "Espacios de alta dirección y estrategia"
+    },
+    "section3": {
+      "subtitle": "Trayectoria y Acompañamiento",
+      "title": "Moonex’s Partners",
+      "paragraph1": "Con más de 20 años de experiencia en el ámbito de los negocios y recursos humanos, hemos diseñado cursos que combinan lo práctico con lo trascendente, lo técnico con lo humano, y lo estratégico con lo cultural.",
+      "paragraph2": "En Novatekia acompañamos a emprendedores, líderes, mandos medios y equipos completos en el camino hacia un crecimiento profesional sólido y con propósito."
+    },
+    "quote": {
+      "bgAlt": "Fondo de filosofía ancestral y corporativa",
+      "text": "Nuestra filosofía se inspira en los valores ancestrales de comunidad, aprendizaje compartido y liderazgo consciente. Creemos que el conocimiento tiene el poder de transformar tanto a las personas como a las empresas, y por ello desarrollamos programas que promueven el equilibrio entre lo humano y lo corporativo.",
+      "author": "— Filosofía Novatekia"
+    }
+  },
+  "courseCard": {
+    "priceSuffix": "persona + IVA",
+    "idealFor": "Ideal para",
+    "includes": "Incluye",
+    "modality": "Modalidad",
+    "duration": "Duración",
+    "attendees": "Asistentes",
+    "removeAttendee": "Quitar asistente",
+    "addAttendee": "Agregar asistente",
+    "buyNow": "Comprar ahora"
+  },
+  "servicesSection": {
+    "badge": "Nuestros Programas",
+    "title": "Servicios Novatekia",
+    "description": "Impulsando el desarrollo humano y colectivo dentro de las organizaciones."
+  },
+  "features": {
+    "subtitle": "Características Principales",
+    "title": "Capacitación en Línea con Visión Integral",
+    "description": "En <company>Novatekia</company> diseñamos cursos que combinan la practicidad del mundo empresarial con la riqueza de una visión cultural y ancestral corporativa.",
+    "items": {
+      "onlineMode": {
+        "title": "Modalidad 100% en línea",
+        "text": "Aprende desde cualquier lugar, con acceso a materiales digitales, foros interactivos y sesiones dinámicas."
+      },
+      "flexibleDuration": {
+        "title": "Duración flexible",
+        "text": "Desde 4 hasta 20 horas, adaptados a tus tiempos y necesidades."
+      },
+      "practicalContent": {
+        "title": "Contenido práctico",
+        "text": "Casos de estudio, ejercicios aplicados y ejemplos reales para un aprendizaje útil y directo."
+      },
+      "downloadableMaterials": {
+        "title": "Acceso a materiales descargables",
+        "text": "Guías, plantillas y recursos que podrás usar en tu día a día laboral."
+      },
+      "businessApproach": {
+        "title": "Enfoque empresarial y humano",
+        "text": "Además de competencias técnicas, desarrollamos habilidades de liderazgo, comunicación y gestión de equipos."
+      },
+      "cultureAndValues": {
+        "title": "Cultura y valores",
+        "text": "Integramos principios de sabiduría ancestral para fortalecer la visión comunitaria, la toma de decisiones conscientes y el liderazgo con propósito."
+      }
+    }
+  },
+  "extraServices": {
+    "title": "Servicios Adicionales",
+    "subtitle": "Por tiempo para cursos en línea",
+    "vat": "+ IVA 16%",
+    "buyButton": "Comprar",
+    "buyNowButton": "Comprar ahora",
+    "table": {
+      "service": "Servicio Adicional",
+      "modality": "Modalidad",
+      "duration": "Duración / Tiempo",
+      "cost": "Costo Aproximado (MXN)",
+      "notes": "Notas",
+      "buy": "Comprar"
+    },
+    "mobile": {
+      "duration": "Duración",
+      "cost": "Costo"
+    }
+  },
+  "customPlan": {
+    "title": "A la medida",
+    "subtitle": "Un plan exclusivo para ti",
+    "requestPlan": "Solicitar un plan",
+    "alreadyHavePlan": "Ya tengo un plan"
+  },
+  "quoteSection": {
+    "quote": "Formar líderes no solo es enseñar habilidades, sino inspirar un legado.",
+    "cta": "¡Inicia <link>diciendo hola!</link>"
+  },
+  "header": {
+    "logoAlt": "Novatekia",
+    "cart": "Carrito",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "nav": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "services": "Servicios",
+      "contact": "Contacto"
+    }
+  },
+  "benefitsSection": {
+    "subtitle": "Ventajas del Programa",
+    "title": "Beneficios",
+    "items": {
+      "one": {
+        "index": "Uno",
+        "title": "Adquieres conocimientos clave",
+        "text": "en áreas estratégicas como negocios, marketing, finanzas, innovación y recursos humanos."
+      },
+      "two": {
+        "index": "Dos",
+        "title": "Desarrollas habilidades blandas indispensables",
+        "text": "liderazgo, comunicación, trabajo en equipo y gestión del cambio."
+      },
+      "three": {
+        "index": "Tres",
+        "title": "Potencias tu crecimiento profesional",
+        "text": "y aportas valor inmediato a tu empresa o emprendimiento."
+      },
+      "four": {
+        "index": "Cuatro",
+        "title": "Aprendes con flexibilidad",
+        "text": "y acompañamiento personalizado a través de tutorías, mentorías y consultorías grupales."
+      },
+      "five": {
+        "index": "Cinco",
+        "title": "Conectas con una formación",
+        "text": "que no solo se enfoca en resultados, sino en el equilibrio entre lo personal, lo profesional y lo colectivo."
+      }
+    }
+  },
+  "contactSection": {
+    "hero": {
+      "badge": "Atención personalizada",
+      "titleLine1": "Conecta con el conocimiento",
+      "titleLine2": "que transforma."
+    },
+    "info": {
+      "addressLabel": "Dirección",
+      "emailLabel": "Correo Electrónico",
+      "phoneLabel": "Teléfono"
+    },
+    "form": {
+      "name": {
+        "label": "Nombre",
+        "placeholder": "Tu nombre completo"
+      },
+      "company": {
+        "label": "Empresa",
+        "placeholder": "Nombre de tu organización"
+      },
+      "email": {
+        "label": "Correo Electrónico",
+        "placeholder": "ejemplo@empresa.com"
+      },
+      "message": {
+        "label": "Cuéntanos los objetivos de tu proyecto",
+        "placeholder": "Describe brevemente tus requerimientos o expectativas..."
+      },
+      "timeline": {
+        "label": "¿Tienes un plazo en mente?",
+        "placeholder": "Ej. 1 mes, Q3 2026, Urgente"
+      },
+      "budget": {
+        "label": "¿Cuál es tu presupuesto?",
+        "placeholder": "0.00 USD / MXN"
+      },
+      "submit": {
+        "default": "Enviar",
+        "loading": "Enviando..."
+      }
+    },
+    "feedback": {
+      "success": "Mensaje enviado con éxito. Nos pondremos en contacto a la brevedad.",
+      "error": "Ocurrió un error al enviar tu información."
+    }
+  },
+  "hero": {
+    "title": "NOVATEKIA",
+    "subtitle": "Programas de capacitación en negocios y recursos humanos",
+    "description": "Nuestro propósito es guiar a personas y empresas hacia un crecimiento sostenible, consciente y lleno de propósito con metodologías avanzadas de gestión.",
+    "ctaLearnMore": "Conocer más",
+    "ctaServices": "Ver Servicios",
+    "imageAlt": "Capacitación Novatekia"
+  },
+  "cartPage": {
+    "emptyTitle": "Tu carrito se encuentra vacío",
+    "emptyDescription": "Aún no has añadido ningún servicio de diseño o asesoría a tu carrito. ¡Inspírate y dale una nueva cara a tus espacios!",
+    "exploreServices": "Explorar Servicios",
+    "title": "Tu Carrito de Compra",
+    "itemsSelected": "Elegiste {count} {itemLabel}",
+    "service": "servicio",
+    "services": "servicios",
+    "badgeInteriorism": "Novatekia",
+    "defaultServiceTitle": "Servicio personalizado",
+    "variantLabel": "Plan / Opción",
+    "assignedTo": "Asignado para",
+    "decreaseQuantity": "Disminuir cantidad",
+    "increaseQuantity": "Aumentar cantidad",
+    "subtotal": "Subtotal",
+    "removeService": "Eliminar servicio",
+    "summaryTitle": "Resumen del pedido",
+    "taxesFees": "Impuestos y Cargos",
+    "calculatedAtCheckout": "Calculado en la pantalla de pago",
+    "estimatedTotal": "Total estimado",
+    "proceedToCheckout": "Ir al Pago",
+    "securityNotice": "Compra 100% segura. Podrás aplicar tu cupón en la siguiente etapa."
+  },
+  "checkoutPage": {
+    "iva": "IVA (16%)",
+    "success": {
+      "title": "¡Pago Exitoso!",
+      "description": "Tu orden ha sido procesada correctamente y hemos enviado un recibo a tu correo electrónico.",
+      "orderIdLabel": "ID de tu Orden:",
+      "continueShopping": "Volver a la tienda"
+    },
+    "emptyTitle": "No hay elementos para procesar",
+    "emptyDescription": "Regresa al carrito e incluye servicios antes de realizar el pago.",
+    "returnToCart": "Volver al Carrito",
+    "secureBadge": "Procesamiento Seguro de 256 bits",
+    "optional": "Opcional",
+    "defaultServiceTitle": "Servicio",
+    "summaryTitle": "Resumen de la Orden",
+    "qtyLabel": "Cant.",
+    "couponLabel": "¿Tienes un código promocional?",
+    "couponPlaceholder": "Ejemplo: PRO10",
+    "applyCoupon": "Aplicar",
+    "couponAppliedBadge": "Se ha aplicado el cupón {code}",
+    "removeCoupon": "Quitar",
+    "subtotal": "Subtotal",
+    "discount": "Descuento",
+    "totalToPay": "Total a pagar",
+    "processingPayment": "Procesando la orden...",
+    "payButton": "Pagar {amount} MXN",
+    "termsNotice": "Al hacer clic confirmas la aceptación de nuestros términos y condiciones.",
+    "notesLabel": "Indicaciones del proyecto",
+    "notesPlaceholder": "Comentarios o notas relevantes para tu arquitecto o diseñador...",
+    "contactSection": {
+      "title": "Datos de Contacto",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "company": "Compañía",
+      "companyPlaceholder": "Nombre de tu empresa o despacho"
+    },
+    "addressSection": {
+      "title": "Dirección de Entrega",
+      "street": "Calle y Número",
+      "suite": "Colonia, N° interior o Depto.",
+      "city": "Ciudad",
+      "state": "Estado / Provincia",
+      "zip": "Código Postal",
+      "country": "País",
+      "countries": {
+        "MX": "México (MX)",
+        "US": "Estados Unidos (US)",
+        "ES": "España (ES)"
+      }
+    },
+    "paymentSection": {
+      "title": "Información del Pago",
+      "cardName": "Titular de la tarjeta",
+      "cardNamePlaceholder": "Nombre que figura en la tarjeta",
+      "cardNumber": "Número de la tarjeta",
+      "cardMonth": "Mes Venc. (MM)",
+      "cardYear": "Año Venc. (AA)",
+      "cvv": "CVV"
+    },
+    "toasts": {
+      "enterCoupon": "Ingresa un código promocional",
+      "couponApplied": "Cupón \"{code}\" aplicado con éxito",
+      "invalidCoupon": "El código es no válido o expiró",
+      "emptyCart": "Tu carrito no tiene artículos",
+      "paymentDeclined": "La transacción fue rechazada.",
+      "paymentSuccess": "Pago exitoso. Orden #{orderId}",
+      "paymentError": "Ocurrió un problema al procesar la orden"
+    }
+  },
+  "ctaSection": {
+    "badge": "Evolución digital",
+    "title": "Lleva tu empresa al entorno digital",
+    "description": "Nos dedicamos a comprender y satisfacer los requerimientos tecnológicos de cada negocio, ofreciendo atención a la medida y resultados sobresalientes.",
+    "button": "Nuestros Servicios",
+    "imageAlt": "Profesional trabajando con laptop"
+  },
+  "footer": {
+    "logoAlt": "Novatekia",
+    "cardsAlt": "Métodos de pago aceptados",
+    "weAccept": "Aceptamos",
+    "copyright": "© 2026 Novatekia. Todos los derechos reservados.",
+    "sections": {
+      "access": "Accesos",
+      "contact": "Contacto"
+    },
+    "nav": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "services": "Servicios",
+      "contact": "Contacto"
+    },
+    "legal": {
+      "privacy": "Política de privacidad",
+      "refund": "Política de reembolso",
+      "terms": "Términos y condiciones"
+    }
+  },
+  "contactPage": {
+    "moreinfoabout": "Solicitud de información: Me gustaría obtener más detalles sobre el proceso de desarrollo de software, la metodología de trabajo y los resultados obtenidos en proyectos previos.",
+    "banner": {
+      "title": "Contacto",
+      "breadcrumb": "Contacto"
+    },
+    "info": {
+      "badge": "Escríbenos",
+      "title": "¡Ponte en contacto!",
+      "description": "No dudes en escribirnos para recibir mayores informes y conocer cómo podemos guiarte hacia el logro de tus metas. ¡Esperamos tu mensaje!"
+    },
+    "form": {
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "email": "Correo electrónico",
+      "message": "Escribe tu mensaje",
+      "submit": "Enviar",
+      "sending": "Enviando..."
+    },
+    "messages": {
+      "success": "¡Agradecemos tu mensaje! Nos pondremos en contacto muy pronto.",
+      "error": "Surgió un inconveniente al enviar el formulario."
+    }
+  },
+  "aboutPage": {
+    "banner": {
+      "title": "Nosotros",
+      "breadcrumb": "Nosotros"
+    },
+    "companyValues": [
+      {
+        "icon": "Lightbulb",
+        "title": "Innovación",
+        "description": "Exploramos de manera constante alternativas para optimizar y rebasar cualquier expectativa."
+      },
+      {
+        "icon": "Award",
+        "title": "Calidad",
+        "description": "Asumimos el compromiso de brindar soluciones regidas por los estándares más elevados."
+      },
+      {
+        "icon": "Users",
+        "title": "Integridad",
+        "description": "Nos conducimos con absoluta honestidad y transparencia en cada relación."
+      },
+      {
+        "icon": "Heart",
+        "title": "Compromiso",
+        "description": "Entrega plena hacia la satisfacción total de nuestros clientes."
+      }
+    ],
+    "about": {
+      "imageAlt": "Equipo de Novatekia",
+      "badge": "Nuestra Empresa",
+      "title": "Somos Novatekia",
+      "description": "Contamos con el conocimiento para entender y resolver desafíos tecnológicos complejos. Nos enfocamos en proporcionar soluciones a medida que aporten valor real a tu empresa. Nuestra experiencia y profesionalismo nos permiten ofrecer desarrollos de alto rendimiento y calidad superior.",
+      "features": {
+        "custom": "Soluciones personalizadas",
+        "performance": "Alto rendimiento"
+      }
+    },
+    "values": {
+      "badge": "Nuestros pilares",
+      "title": "NUESTROS VALORES"
+    }
+  },
+  "customPackagePage": {
+    "hero": {
+      "badge": "Solución a la medida",
+      "title": "Detalles del Producto"
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "packages": "Paquetes",
+      "current": "Paquete personalizado"
+    },
+    "product": {
+      "name": "Paquete a la medida",
+      "imageAlt": "Imagen del paquete personalizado"
+    },
+    "description": {
+      "contactAdvisor": "Consulta a un asesor.",
+      "instructions": "Para obtener una cotización a la medida ponte en contacto con un asesor. Ingresa los datos correspondientes a tu paquete para realizar el pago."
+    },
+    "form": {
+      "badge": "Plan especial",
+      "folioLabel": "Folio del paquete",
+      "folioPlaceholder": "Ej. AB-2026-001",
+      "amountLabel": "Monto a pagar",
+      "addToCart": "Agregar al carrito"
+    },
+    "total": {
+      "label": "Monto total"
+    }
+  },
+  "packages": {
+    "banner": {
+      "title": "Paquetes",
+      "breadcrumb": "Paquetes"
+    },
+    "main": {
+      "badge": "Nuestros Paquetes",
+      "title": "Planes adaptados a cada tamaño de empresa",
+      "featured": "Recomendado",
+      "packageLabel": "Paquete {number}",
+      "tax": "+ IVA"
+    },
+    "buttons": {
+      "added": "Agregado",
+      "startNow": "Comenzar Ahora"
+    },
+    "consulting": {
+      "title": "¿Requieres resolver una duda tecnológica urgente y buscas orientación experta?",
+      "description": "Mediante nuestros servicios de consultoría individual, obtendrás respuestas concretas en cuestión de minutos. La opción idónea para solucionar urgencias o tomar decisiones claves sin perder tiempo ni dinero."
+    },
+    "cta": {
+      "imageAlt": "Especialista de tecnología",
+      "badge": "¿Buscas una solución de mayor alcance?",
+      "title": "Contamos con un paquete hecho totalmente a la medida",
+      "description": "Comunícate con nosotros y un especialista formulará un plan adaptado puntualmente a las necesidades de tu empresa.",
+      "button": "Paquete A Medida"
+    }
+  },
+  "services": {
+    "banner": {
+      "title": "Nuestros servicios",
+      "breadcrumb": "Nuestros servicios"
+    },
+    "service": {
+      "badge": "Servicio",
+      "readMore": "Conocer Más"
+    },
+    "cta": {
+      "badge": "Potencia tu empresa",
+      "title": "Lleva tu empresa al entorno digital",
+      "description": "Nos esforzamos por entender y satisfacer las necesidades tecnológicas de cada cliente, ofreciendo servicios personalizados y resultados excepcionales.",
+      "button": "Explorar Paquetes",
+      "imageAlt": "Profesional de tecnología"
+    }
+  },
+  "serviceDetail": {
+    "hero": {
+      "tag": "Solución tecnológica"
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "services": "Nuestros servicios"
+    },
+    "feature": {
+      "placeholderLabel": "ImagenDestacada",
+      "placeholderDescription": "Coloca aquí la imagen principal"
+    },
+    "aside": {
+      "title": "Nuestros servicios",
+      "subtitle": "Conoce las demás opciones disponibles."
+    },
+    "description": {
+      "title": "Descripción",
+      "subtitle": "Visión clara sobre este servicio y la propuesta de valor que brinda."
+    },
+    "benefits": {
+      "title": "Beneficios",
+      "subtitle": "Ventajas y resultados directos tras contratar este servicio."
+    },
+    "process": {
+      "title": "Metodología de trabajo",
+      "subtitle": "Explicación detallada de nuestro proceso paso a paso."
+    },
+    "notFound": {
+      "title": "Servicio no localizado",
+      "description": "El servicio que buscas no está disponible o no existe. Consulta el catálogo para continuar.",
+      "button": "Ver servicios"
+    }
+  },
+  "Emails": {
+    "contactEmail": {
+      "internalHeroPretitle": "Nuevo Prospecto",
+      "internalHeroTitle": "Mensaje entrante recibido",
+      "internalHeroSubtitle": "Se registró una solicitud desde el formulario de contacto del portal web. Revisa los detalles para darle seguimiento.",
+      "labelName": "Nombre",
+      "labelEmail": "Correo",
+      "clientMessageTitle": "Contenido del mensaje",
+      "internalFollowUpNotice": "Responde directamente a este correo o escribe a {email} para darle atención al prospecto.",
+      "userHeroPretitle": "Solicitud recibida",
+      "userHeroTitle": "Gracias por comunicarte con nosotros",
+      "userHeroSubtitle": "Tu solicitud ha sido registrada con éxito. Nuestro equipo la revisará para darte respuesta muy pronto.",
+      "userGreeting": "Hola, {name}.",
+      "userBodyText": "Recibimos tu mensaje. En breve uno de nuestros especialistas se comunicará contigo a través de la dirección de correo proporcionada.",
+      "labelRegisteredEmail": "Correo registrado",
+      "labelSite": "Sitio Web",
+      "buttonBackToSite": "Regresar al sitio web",
+      "internalSubject": "Nuevo prospecto: {name}",
+      "userSubject": "Hemos recibido tu solicitud - {brandName}",
+      "footerTagline": "{brandName} · Desarrollo de software y aplicaciones a medida.",
+      "footerRights": "© {year} · {brandName}. Todos los derechos reservados."
+    },
+    "checkoutEmail": {
+      "customerError": "Datos de confirmación incompletos.",
+      "customerSubject": "Confirmación de compra - Orden #{orderId}",
+      "businessSubject": "Nueva Venta Registrada - Orden #{orderId}",
+      "customerHeroPretitle": "Recibo de pago",
+      "customerHeroTitle": "¡Muchas gracias por tu compra!",
+      "customerHeroSubtitle": "Hola {name}. Tu pedido ha sido procesado con éxito y estamos alistando todo para ti.",
+      "labelOrderNumber": "Número de pedido",
+      "labelDate": "Fecha",
+      "labelShippingAddress": "Dirección de entrega",
+      "buttonBackToStore": "Ir a la tienda",
+      "businessHeroPretitle": "Venta Confirmada",
+      "businessHeroTitle": "Pago registrado con éxito",
+      "businessHeroSubtitle": "Se completó una nueva compra dentro de la plataforma. Revisa la información de facturación y despacho a continuación.",
+      "labelCustomer": "Cliente",
+      "labelEmail": "Correo",
+      "labelPhone": "Teléfono",
+      "labelOrder": "Orden",
+      "labelCustomerAddress": "Dirección del Cliente",
+      "labelAdditionalNotes": "Notas adicionales",
+      "tableConcept": "Concepto",
+      "tableQuantity": "Cant.",
+      "tableTotal": "Total",
+      "tableTotalPaid": "Monto total pagado: {amount} MXN",
+      "currencyFormat": "{price} MXN",
+      "footerSupport": "Si requieres ayuda con este cargo, escríbenos a",
+      "footerRights": "Todos los derechos reservados.",
+      "successMessage": "Notificaciones enviadas con éxito.",
+      "errorMessage": "El pago fue exitoso, pero ocurrió un problema al remitir el correo de confirmación."
+    }
+  }
+}
