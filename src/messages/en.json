@@ -154,6 +154,13 @@
     }
   },
   "contactSection": {
+    "validation": {
+      "nombreRequired": "Name is required.",
+      "nombreMinLength": "Name must be at least 2 characters long.",
+      "emailRequired": "Email address is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "budgetNumeric": "Budget must be a valid number."
+    },
     "hero": {
       "badge": "Personalized service",
       "titleLine1": "Connect with the knowledge",
@@ -444,25 +451,34 @@
   },
   "Emails": {
     "contactEmail": {
-      "internalHeroPretitle": "Incoming Lead",
-      "internalHeroTitle": "New message received",
-      "internalHeroSubtitle": "A submission was submitted through the website contact form. Review the details and follow up accordingly.",
-      "labelName": "Name",
-      "labelEmail": "Email",
-      "clientMessageTitle": "Customer message",
-      "internalFollowUpNotice": "Reply directly to this email or send a message to {email} to manage the lead.",
-      "userHeroPretitle": "Submission received",
-      "userHeroTitle": "Thank you for reaching out",
-      "userHeroSubtitle": "Your inquiry was logged successfully. Our team will review it and reply as soon as possible.",
-      "userGreeting": "Hello, {name}.",
-      "userBodyText": "We have received your message. Shortly, one of our specialists will get in touch with you using the email address you submitted.",
-      "labelRegisteredEmail": "Registered email",
-      "labelSite": "Website",
-      "buttonBackToSite": "Return to website",
-      "internalSubject": "New lead: {name}",
-      "userSubject": "We have received your inquiry - {brandName}",
-      "footerTagline": "{brandName} · Custom software and app development.",
-      "footerRights": "© {year} · {brandName}. All rights reserved."
+      "validationError": "The 'name' and 'email' fields are required.",
+      "successMessage": "Messages sent successfully.",
+      "copyright": "All rights reserved.",
+      "summaryTitle": "Summary of your request",
+      "fields": {
+        "name": "Name",
+        "company": "Company",
+        "email": "Email",
+        "message": "Project goals",
+        "timeline": "Estimated timeline",
+        "budget": "Budget"
+      },
+      "client": {
+        "badge": "Receipt confirmation",
+        "greeting": "Hello,",
+        "message": "We have received your request successfully. Our team will review the details of your project and will get back to you shortly.",
+        "additionalInfoPrefix": "If you need to add additional details, you can reply directly to this message or email us at",
+        "additionalInfoSuffix": ".",
+        "subject": "We have received your message"
+      },
+      "business": {
+        "badge": "New web inquiry",
+        "titlePrefix": "Request from",
+        "message": "A new entry has been recorded through the contact form:",
+        "contactEmailLabel": "Contact email",
+        "timelineInMindLabel": "Timeline in mind",
+        "subjectPrefix": "New Project"
+      }
     },
     "checkoutEmail": {
       "customerError": "Incomplete confirmation details.",

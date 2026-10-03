@@ -392,7 +392,7 @@ export default function CheckoutPage() {
                                 </div>
                                 <div>
                                     <label className="block text-xs font-bold uppercase tracking-wider text-red-950 mb-1.5">{t("paymentSection.cvv")} *</label>
-                                    <input required type="password" name="cardCvv" maxLength={4} value={formData.cardCvv} onChange={handleChange} className="w-full bg-amber-50/30 border border-red-950/30 px-4 py-2.5 text-sm font-medium text-zinc-900 focus:outline-none focus:border-red-950 focus:ring-1 focus:ring-red-950 text-center" placeholder="123" />
+                                    <input required type="password" name="cardCvv" maxLength={3} value={formData.cardCvv} onChange={handleChange} className="w-full bg-amber-50/30 border border-red-950/30 px-4 py-2.5 text-sm font-medium text-zinc-900 focus:outline-none focus:border-red-950 focus:ring-1 focus:ring-red-950 text-center" placeholder="123" />
                                 </div>
                             </div>
                         </div>

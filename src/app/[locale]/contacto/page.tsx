@@ -5,6 +5,8 @@ import { useTranslations } from "next-intl";
 import { Mail, MapPin, Phone, Send, CheckCircle, AlertCircle } from "lucide-react";
 import { useContact, ContactData } from "@/hooks/useContact";
 
+type FormErrors = Partial<Record<keyof ContactData, string>>;
+
 export default function ContactSection() {
   const t = useTranslations("contactSection");
   const { sendContactForm, isLoading } = useContact();
@@ -18,24 +20,85 @@ export default function ContactSection() {
     presupuesto: "",
   });
 
+  const [errors, setErrors] = useState<FormErrors>({});
+
   const [feedback, setFeedback] = useState<{
     type: "success" | "error" | null;
     message: string;
   }>({ type: null, message: "" });
 
+  const validateField = (name: keyof ContactData, value: string): string => {
+    let errorMsg = "";
+    const trimmedVal = value.trim();
+
+    switch (name) {
+      case "nombre":
+        if (!trimmedVal) {
+          errorMsg = t("validation.nombreRequired");
+        } else if (trimmedVal.length < 2) {
+          errorMsg = t("validation.nombreMinLength");
+        }
+        break;
+      case "email":
+        if (!trimmedVal) {
+          errorMsg = t("validation.emailRequired");
+        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmedVal)) {
+          errorMsg = t("validation.emailInvalid");
+        }
+        break;
+      case "presupuesto":
+        if (trimmedVal && isNaN(Number(trimmedVal))) {
+          errorMsg = t("validation.budgetNumeric");
+        }
+        break;
+      default:
+        break;
+    }
+
+    return errorMsg;
+  };
+
+  const validateForm = (): boolean => {
+    const newErrors: FormErrors = {};
+
+    (Object.keys(formData) as Array<keyof ContactData>).forEach((field) => {
+      const error = validateField(field, String(formData[field] ?? ""));
+      if (error) {
+        newErrors[field] = error;
+      }
+    });
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
+    const fieldName = name as keyof ContactData;
+
     setFormData((prev) => ({
       ...prev,
-      [name]: value,
+      [fieldName]: value,
     }));
+
+    if (errors[fieldName]) {
+      const fieldError = validateField(fieldName, value);
+      setErrors((prev) => ({
+        ...prev,
+        [fieldName]: fieldError,
+      }));
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setFeedback({ type: null, message: "" });
+
+    if (!validateForm()) {
+      return;
+    }
 
     const response = await sendContactForm(formData);
 
@@ -44,7 +107,6 @@ export default function ContactSection() {
         type: "success",
         message: t("feedback.success"),
       });
-      // Limpiar formulario tras envío exitoso
       setFormData({
         nombre: "",
         empresa: "",
@@ -53,6 +115,7 @@ export default function ContactSection() {
         plazo: "",
         presupuesto: "",
       });
+      setErrors({});
     } else {
       setFeedback({
         type: "error",
@@ -132,7 +195,7 @@ export default function ContactSection() {
 
           {/* COLUMNA DERECHA: FORMULARIO */}
           <div className="lg:col-span-7 backdrop-blur-md bg-zinc-900/30 p-8 sm:p-12 border border-zinc-800">
-            <form onSubmit={handleSubmit} className="space-y-8">
+            <form onSubmit={handleSubmit} noValidate className="space-y-8">
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 {/* Nombre */}
@@ -147,12 +210,20 @@ export default function ContactSection() {
                     type="text"
                     id="nombre"
                     name="nombre"
-                    required
                     value={String(formData.nombre ?? "")}
                     onChange={handleChange}
                     placeholder={t("form.name.placeholder")}
-                    className="w-full bg-zinc-950/80 border border-zinc-800 px-4 py-3 text-sm text-zinc-100 placeholder-zinc-600 focus:outline-none focus:border-amber-500 transition-colors"
+                    className={`w-full bg-zinc-950/80 border px-4 py-3 text-sm text-zinc-100 placeholder-zinc-600 focus:outline-none transition-colors ${
+                      errors.nombre
+                        ? "border-red-500/80 focus:border-red-500"
+                        : "border-zinc-800 focus:border-amber-500"
+                    }`}
                   />
+                  {errors.nombre && (
+                    <p className="text-xs text-red-400 font-medium mt-1">
+                      {errors.nombre}
+                    </p>
+                  )}
                 </div>
 
                 {/* Empresa */}
@@ -187,12 +258,20 @@ export default function ContactSection() {
                   type="email"
                   id="email"
                   name="email"
-                  required
                   value={String(formData.email ?? "")}
                   onChange={handleChange}
                   placeholder={t("form.email.placeholder")}
-                  className="w-full bg-zinc-950/80 border border-zinc-800 px-4 py-3 text-sm text-zinc-100 placeholder-zinc-600 focus:outline-none focus:border-amber-500 transition-colors"
+                  className={`w-full bg-zinc-950/80 border px-4 py-3 text-sm text-zinc-100 placeholder-zinc-600 focus:outline-none transition-colors ${
+                    errors.email
+                      ? "border-red-500/80 focus:border-red-500"
+                      : "border-zinc-800 focus:border-amber-500"
+                  }`}
                 />
+                {errors.email && (
+                  <p className="text-xs text-red-400 font-medium mt-1">
+                    {errors.email}
+                  </p>
+                )}
               </div>
 
               {/* Objetivos del proyecto (Mensaje) */}
@@ -253,19 +332,29 @@ export default function ContactSection() {
                       value={String(formData.presupuesto ?? "")}
                       onChange={handleChange}
                       placeholder={t("form.budget.placeholder")}
-                      className="w-full bg-zinc-950/80 border border-zinc-800 pl-8 pr-4 py-3 text-sm text-zinc-100 placeholder-zinc-600 focus:outline-none focus:border-amber-500 transition-colors"
+                      className={`w-full bg-zinc-950/80 border pl-8 pr-4 py-3 text-sm text-zinc-100 placeholder-zinc-600 focus:outline-none transition-colors ${
+                        errors.presupuesto
+                          ? "border-red-500/80 focus:border-red-500"
+                          : "border-zinc-800 focus:border-amber-500"
+                      }`}
                     />
                   </div>
+                  {errors.presupuesto && (
+                    <p className="text-xs text-red-400 font-medium mt-1">
+                      {errors.presupuesto}
+                    </p>
+                  )}
                 </div>
               </div>
 
               {/* FEEDBACK NOTIFICATION */}
               {feedback.type && (
                 <div
-                  className={`p-4 border flex items-center space-x-3 text-sm ${feedback.type === "success"
+                  className={`p-4 border flex items-center space-x-3 text-sm ${
+                    feedback.type === "success"
                       ? "bg-emerald-950/40 border-emerald-800/80 text-emerald-300"
                       : "bg-red-950/40 border-red-800/80 text-red-300"
-                    }`}
+                  }`}
                 >
                   {feedback.type === "success" ? (
                     <CheckCircle className="w-5 h-5 shrink-0 text-emerald-400" />
@@ -283,7 +372,9 @@ export default function ContactSection() {
                   disabled={isLoading}
                   className="w-full sm:w-auto bg-[#800020] hover:bg-[#600018] active:bg-[#400010] text-amber-400 border border-amber-500/30 px-10 py-4 font-medium text-xs uppercase tracking-[0.2em] transition-all duration-200 flex items-center justify-center space-x-3 disabled:opacity-50 disabled:cursor-not-allowed group"
                 >
-                  <span>{isLoading ? t("form.submit.loading") : t("form.submit.default")}</span>
+                  <span>
+                    {isLoading ? t("form.submit.loading") : t("form.submit.default")}
+                  </span>
                   <Send className="w-4 h-4 text-amber-400 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>

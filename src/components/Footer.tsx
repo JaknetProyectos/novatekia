@@ -27,9 +27,9 @@ export default function Footer() {
   ];
 
   const legalLinks = [
-    { label: t("legal.privacy"), href: "/politica-privacidad", icon: Shield },
-    { label: t("legal.refund"), href: "/politica-rembolso", icon: RefreshCw },
-    { label: t("legal.terms"), href: "/terminos-condiciones", icon: FileText },
+    { label: t("legal.privacy"), href: "/legal/privacidad", icon: Shield },
+    { label: t("legal.refund"), href: "/legal/rembolsos", icon: RefreshCw },
+    { label: t("legal.terms"), href: "/legal/terminos", icon: FileText },
   ];
 
   return (
